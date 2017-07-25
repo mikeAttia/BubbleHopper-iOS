@@ -69,7 +69,7 @@ playground.xcworkspace
 
 # CocoaPods
 
- Pods/
+ Pods/*
 
 # Carthage
 #
@@ -89,3 +89,4 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+BubbleHopper/Pods

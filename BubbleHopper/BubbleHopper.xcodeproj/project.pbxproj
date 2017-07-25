@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CEB792E213A36430B1ADD4 /* Pods_BubbleHopperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28780C8C3223A577365B397 /* Pods_BubbleHopperUITests.framework */; };
+		4C1FC29B1F2681C300CC8DF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1FC29A1F2681C300CC8DF3 /* AppDelegate.swift */; };
+		4C1FC29D1F2681C300CC8DF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1FC29C1F2681C300CC8DF3 /* ViewController.swift */; };
+		4C1FC2A01F2681C300CC8DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FC29E1F2681C300CC8DF3 /* Main.storyboard */; };
+		4C1FC2A31F2681C300CC8DF3 /* BubbleHopper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C1FC2A11F2681C300CC8DF3 /* BubbleHopper.xcdatamodeld */; };
+		4C1FC2A51F2681C300CC8DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FC2A41F2681C300CC8DF3 /* Assets.xcassets */; };
+		4C1FC2A81F2681C300CC8DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FC2A61F2681C300CC8DF3 /* LaunchScreen.storyboard */; };
+		4C1FC2B31F2681C300CC8DF3 /* BubbleHopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1FC2B21F2681C300CC8DF3 /* BubbleHopperTests.swift */; };
+		4C1FC2BE1F2681C300CC8DF3 /* BubbleHopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1FC2BD1F2681C300CC8DF3 /* BubbleHopperUITests.swift */; };
+		4C1FC2CF1F2691FC00CC8DF3 /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1FC2CE1F2691FC00CC8DF3 /* TempViewController.swift */; };
+		A3C0B283E7A6C173C5B2C142 /* Pods_BubbleHopperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A4888F554BEC25315CC8EF /* Pods_BubbleHopperTests.framework */; };
+		DE59D456DC12285BFF18C6A1 /* Pods_BubbleHopper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0C4C7F290F99EA3F5FA35A /* Pods_BubbleHopper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C1FC2AF1F2681C300CC8DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1FC28F1F2681C300CC8DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1FC2961F2681C300CC8DF3;
+			remoteInfo = BubbleHopper;
+		};
+		4C1FC2BA1F2681C300CC8DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1FC28F1F2681C300CC8DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1FC2961F2681C300CC8DF3;
+			remoteInfo = BubbleHopper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E0C4C7F290F99EA3F5FA35A /* Pods_BubbleHopper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbleHopper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F928F2CBFA68C310CF74A2A /* Pods-BubbleHopperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleHopperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BubbleHopperUITests/Pods-BubbleHopperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B339F02E04586E1237CCDF0 /* Pods-BubbleHopper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleHopper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BubbleHopper/Pods-BubbleHopper.debug.xcconfig"; sourceTree = "<group>"; };
+		4C1FC2971F2681C300CC8DF3 /* BubbleHopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleHopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1FC29A1F2681C300CC8DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C1FC29C1F2681C300CC8DF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C1FC29F1F2681C300CC8DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C1FC2A21F2681C300CC8DF3 /* BubbleHopper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BubbleHopper.xcdatamodel; sourceTree = "<group>"; };
+		4C1FC2A41F2681C300CC8DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C1FC2A71F2681C300CC8DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C1FC2A91F2681C300CC8DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1FC2AE1F2681C300CC8DF3 /* BubbleHopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleHopperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1FC2B21F2681C300CC8DF3 /* BubbleHopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleHopperTests.swift; sourceTree = "<group>"; };
+		4C1FC2B41F2681C300CC8DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1FC2B91F2681C300CC8DF3 /* BubbleHopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleHopperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1FC2BD1F2681C300CC8DF3 /* BubbleHopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleHopperUITests.swift; sourceTree = "<group>"; };
+		4C1FC2BF1F2681C400CC8DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1FC2CE1F2691FC00CC8DF3 /* TempViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
+		70C3D1DA5C7A8E368A2A06E5 /* Pods-BubbleHopperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleHopperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BubbleHopperTests/Pods-BubbleHopperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70D0B73AFA0D1336D069ED01 /* Pods-BubbleHopper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleHopper.release.xcconfig"; path = "Pods/Target Support Files/Pods-BubbleHopper/Pods-BubbleHopper.release.xcconfig"; sourceTree = "<group>"; };
+		8573A55C04BA9488CF3338B7 /* Pods-BubbleHopperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleHopperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BubbleHopperUITests/Pods-BubbleHopperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91B8EE59D04C265627556015 /* Pods-BubbleHopperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleHopperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BubbleHopperTests/Pods-BubbleHopperTests.release.xcconfig"; sourceTree = "<group>"; };
+		D28780C8C3223A577365B397 /* Pods_BubbleHopperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbleHopperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A4888F554BEC25315CC8EF /* Pods_BubbleHopperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbleHopperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1FC2941F2681C300CC8DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE59D456DC12285BFF18C6A1 /* Pods_BubbleHopper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1FC2AB1F2681C300CC8DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C0B283E7A6C173C5B2C142 /* Pods_BubbleHopperTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1FC2B61F2681C300CC8DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CEB792E213A36430B1ADD4 /* Pods_BubbleHopperUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44BD8977CCC78D4C0B184923 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B339F02E04586E1237CCDF0 /* Pods-BubbleHopper.debug.xcconfig */,
+				70D0B73AFA0D1336D069ED01 /* Pods-BubbleHopper.release.xcconfig */,
+				70C3D1DA5C7A8E368A2A06E5 /* Pods-BubbleHopperTests.debug.xcconfig */,
+				91B8EE59D04C265627556015 /* Pods-BubbleHopperTests.release.xcconfig */,
+				1F928F2CBFA68C310CF74A2A /* Pods-BubbleHopperUITests.debug.xcconfig */,
+				8573A55C04BA9488CF3338B7 /* Pods-BubbleHopperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C1FC28E1F2681C300CC8DF3 = {
+			isa = PBXGroup;
+			children = (
+				4C1FC2991F2681C300CC8DF3 /* BubbleHopper */,
+				4C1FC2B11F2681C300CC8DF3 /* BubbleHopperTests */,
+				4C1FC2BC1F2681C300CC8DF3 /* BubbleHopperUITests */,
+				4C1FC2981F2681C300CC8DF3 /* Products */,
+				44BD8977CCC78D4C0B184923 /* Pods */,
+				C3FDB78932D45AE61AC6779C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C1FC2981F2681C300CC8DF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1FC2971F2681C300CC8DF3 /* BubbleHopper.app */,
+				4C1FC2AE1F2681C300CC8DF3 /* BubbleHopperTests.xctest */,
+				4C1FC2B91F2681C300CC8DF3 /* BubbleHopperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C1FC2991F2681C300CC8DF3 /* BubbleHopper */ = {
+			isa = PBXGroup;
+			children = (
+				4C1FC29A1F2681C300CC8DF3 /* AppDelegate.swift */,
+				4C1FC29C1F2681C300CC8DF3 /* ViewController.swift */,
+				4C1FC2CE1F2691FC00CC8DF3 /* TempViewController.swift */,
+				4C1FC29E1F2681C300CC8DF3 /* Main.storyboard */,
+				4C1FC2A41F2681C300CC8DF3 /* Assets.xcassets */,
+				4C1FC2A61F2681C300CC8DF3 /* LaunchScreen.storyboard */,
+				4C1FC2A91F2681C300CC8DF3 /* Info.plist */,
+				4C1FC2A11F2681C300CC8DF3 /* BubbleHopper.xcdatamodeld */,
+			);
+			path = BubbleHopper;
+			sourceTree = "<group>";
+		};
+		4C1FC2B11F2681C300CC8DF3 /* BubbleHopperTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1FC2B21F2681C300CC8DF3 /* BubbleHopperTests.swift */,
+				4C1FC2B41F2681C300CC8DF3 /* Info.plist */,
+			);
+			path = BubbleHopperTests;
+			sourceTree = "<group>";
+		};
+		4C1FC2BC1F2681C300CC8DF3 /* BubbleHopperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1FC2BD1F2681C300CC8DF3 /* BubbleHopperUITests.swift */,
+				4C1FC2BF1F2681C400CC8DF3 /* Info.plist */,
+			);
+			path = BubbleHopperUITests;
+			sourceTree = "<group>";
+		};
+		C3FDB78932D45AE61AC6779C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E0C4C7F290F99EA3F5FA35A /* Pods_BubbleHopper.framework */,
+				E9A4888F554BEC25315CC8EF /* Pods_BubbleHopperTests.framework */,
+				D28780C8C3223A577365B397 /* Pods_BubbleHopperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C1FC2961F2681C300CC8DF3 /* BubbleHopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1FC2C21F2681C400CC8DF3 /* Build configuration list for PBXNativeTarget "BubbleHopper" */;
+			buildPhases = (
+				556FFD6D82EAC0CB4EA8E68C /* [CP] Check Pods Manifest.lock */,
+				4C1FC2931F2681C300CC8DF3 /* Sources */,
+				4C1FC2941F2681C300CC8DF3 /* Frameworks */,
+				4C1FC2951F2681C300CC8DF3 /* Resources */,
+				0283DB714026D706D5466F9C /* [CP] Embed Pods Frameworks */,
+				6E0E041F5086329817BE77F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubbleHopper;
+			productName = BubbleHopper;
+			productReference = 4C1FC2971F2681C300CC8DF3 /* BubbleHopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C1FC2AD1F2681C300CC8DF3 /* BubbleHopperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1FC2C51F2681C400CC8DF3 /* Build configuration list for PBXNativeTarget "BubbleHopperTests" */;
+			buildPhases = (
+				689DC9A07C10D7A8B36F05F4 /* [CP] Check Pods Manifest.lock */,
+				4C1FC2AA1F2681C300CC8DF3 /* Sources */,
+				4C1FC2AB1F2681C300CC8DF3 /* Frameworks */,
+				4C1FC2AC1F2681C300CC8DF3 /* Resources */,
+				269E18AD11659FDB1191E2F8 /* [CP] Embed Pods Frameworks */,
+				4783F2F41B3DF66A7A272E93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1FC2B01F2681C300CC8DF3 /* PBXTargetDependency */,
+			);
+			name = BubbleHopperTests;
+			productName = BubbleHopperTests;
+			productReference = 4C1FC2AE1F2681C300CC8DF3 /* BubbleHopperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C1FC2B81F2681C300CC8DF3 /* BubbleHopperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1FC2C81F2681C400CC8DF3 /* Build configuration list for PBXNativeTarget "BubbleHopperUITests" */;
+			buildPhases = (
+				BDAAB530DE6E511A8A3C3044 /* [CP] Check Pods Manifest.lock */,
+				4C1FC2B51F2681C300CC8DF3 /* Sources */,
+				4C1FC2B61F2681C300CC8DF3 /* Frameworks */,
+				4C1FC2B71F2681C300CC8DF3 /* Resources */,
+				C6A4DEAD41EC4192B1DC7AD6 /* [CP] Embed Pods Frameworks */,
+				F84E22E02706838B749728D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1FC2BB1F2681C300CC8DF3 /* PBXTargetDependency */,
+			);
+			name = BubbleHopperUITests;
+			productName = BubbleHopperUITests;
+			productReference = 4C1FC2B91F2681C300CC8DF3 /* BubbleHopperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C1FC28F1F2681C300CC8DF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = mikeAttia;
+				TargetAttributes = {
+					4C1FC2961F2681C300CC8DF3 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 855NGKW9YC;
+						ProvisioningStyle = Automatic;
+					};
+					4C1FC2AD1F2681C300CC8DF3 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 855NGKW9YC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C1FC2961F2681C300CC8DF3;
+					};
+					4C1FC2B81F2681C300CC8DF3 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 855NGKW9YC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C1FC2961F2681C300CC8DF3;
+					};
+				};
+			};
+			buildConfigurationList = 4C1FC2921F2681C300CC8DF3 /* Build configuration list for PBXProject "BubbleHopper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C1FC28E1F2681C300CC8DF3;
+			productRefGroup = 4C1FC2981F2681C300CC8DF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1FC2961F2681C300CC8DF3 /* BubbleHopper */,
+				4C1FC2AD1F2681C300CC8DF3 /* BubbleHopperTests */,
+				4C1FC2B81F2681C300CC8DF3 /* BubbleHopperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1FC2951F2681C300CC8DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1FC2A81F2681C300CC8DF3 /* LaunchScreen.storyboard in Resources */,
+				4C1FC2A51F2681C300CC8DF3 /* Assets.xcassets in Resources */,
+				4C1FC2A01F2681C300CC8DF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1FC2AC1F2681C300CC8DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1FC2B71F2681C300CC8DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0283DB714026D706D5466F9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BubbleHopper/Pods-BubbleHopper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		269E18AD11659FDB1191E2F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BubbleHopperTests/Pods-BubbleHopperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4783F2F41B3DF66A7A272E93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BubbleHopperTests/Pods-BubbleHopperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		556FFD6D82EAC0CB4EA8E68C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		689DC9A07C10D7A8B36F05F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E0E041F5086329817BE77F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BubbleHopper/Pods-BubbleHopper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDAAB530DE6E511A8A3C3044 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A4DEAD41EC4192B1DC7AD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BubbleHopperUITests/Pods-BubbleHopperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F84E22E02706838B749728D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BubbleHopperUITests/Pods-BubbleHopperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C1FC2931F2681C300CC8DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1FC2CF1F2691FC00CC8DF3 /* TempViewController.swift in Sources */,
+				4C1FC29D1F2681C300CC8DF3 /* ViewController.swift in Sources */,
+				4C1FC29B1F2681C300CC8DF3 /* AppDelegate.swift in Sources */,
+				4C1FC2A31F2681C300CC8DF3 /* BubbleHopper.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1FC2AA1F2681C300CC8DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1FC2B31F2681C300CC8DF3 /* BubbleHopperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1FC2B51F2681C300CC8DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1FC2BE1F2681C300CC8DF3 /* BubbleHopperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C1FC2B01F2681C300CC8DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1FC2961F2681C300CC8DF3 /* BubbleHopper */;
+			targetProxy = 4C1FC2AF1F2681C300CC8DF3 /* PBXContainerItemProxy */;
+		};
+		4C1FC2BB1F2681C300CC8DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1FC2961F2681C300CC8DF3 /* BubbleHopper */;
+			targetProxy = 4C1FC2BA1F2681C300CC8DF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C1FC29E1F2681C300CC8DF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1FC29F1F2681C300CC8DF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C1FC2A61F2681C300CC8DF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1FC2A71F2681C300CC8DF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C1FC2C01F2681C400CC8DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C1FC2C11F2681C400CC8DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C1FC2C31F2681C400CC8DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B339F02E04586E1237CCDF0 /* Pods-BubbleHopper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 855NGKW9YC;
+				INFOPLIST_FILE = BubbleHopper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeattia.BubbleHopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C1FC2C41F2681C400CC8DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D0B73AFA0D1336D069ED01 /* Pods-BubbleHopper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 855NGKW9YC;
+				INFOPLIST_FILE = BubbleHopper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeattia.BubbleHopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C1FC2C61F2681C400CC8DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C3D1DA5C7A8E368A2A06E5 /* Pods-BubbleHopperTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 855NGKW9YC;
+				INFOPLIST_FILE = BubbleHopperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeattia.BubbleHopperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleHopper.app/BubbleHopper";
+			};
+			name = Debug;
+		};
+		4C1FC2C71F2681C400CC8DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B8EE59D04C265627556015 /* Pods-BubbleHopperTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 855NGKW9YC;
+				INFOPLIST_FILE = BubbleHopperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeattia.BubbleHopperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleHopper.app/BubbleHopper";
+			};
+			name = Release;
+		};
+		4C1FC2C91F2681C400CC8DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F928F2CBFA68C310CF74A2A /* Pods-BubbleHopperUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 855NGKW9YC;
+				INFOPLIST_FILE = BubbleHopperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeattia.BubbleHopperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BubbleHopper;
+			};
+			name = Debug;
+		};
+		4C1FC2CA1F2681C400CC8DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8573A55C04BA9488CF3338B7 /* Pods-BubbleHopperUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 855NGKW9YC;
+				INFOPLIST_FILE = BubbleHopperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeattia.BubbleHopperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BubbleHopper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C1FC2921F2681C300CC8DF3 /* Build configuration list for PBXProject "BubbleHopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1FC2C01F2681C400CC8DF3 /* Debug */,
+				4C1FC2C11F2681C400CC8DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1FC2C21F2681C400CC8DF3 /* Build configuration list for PBXNativeTarget "BubbleHopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1FC2C31F2681C400CC8DF3 /* Debug */,
+				4C1FC2C41F2681C400CC8DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1FC2C51F2681C400CC8DF3 /* Build configuration list for PBXNativeTarget "BubbleHopperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1FC2C61F2681C400CC8DF3 /* Debug */,
+				4C1FC2C71F2681C400CC8DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1FC2C81F2681C400CC8DF3 /* Build configuration list for PBXNativeTarget "BubbleHopperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1FC2C91F2681C400CC8DF3 /* Debug */,
+				4C1FC2CA1F2681C400CC8DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C1FC2A11F2681C300CC8DF3 /* BubbleHopper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C1FC2A21F2681C300CC8DF3 /* BubbleHopper.xcdatamodel */,
+			);
+			currentVersion = 4C1FC2A21F2681C300CC8DF3 /* BubbleHopper.xcdatamodel */;
+			path = BubbleHopper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C1FC28F1F2681C300CC8DF3 /* Project object */;
+}

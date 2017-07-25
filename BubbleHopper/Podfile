@@ -1,0 +1,24 @@
+
+ platform :ios, '9.0'
+
+target 'BubbleHopper' do
+  
+  use_frameworks!
+
+  # Pods for BubbleHopper
+
+	pod 'FacebookCore'
+	pod 'FacebookLogin'
+	pod 'FacebookShare'
+
+  target 'BubbleHopperTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'BubbleHopperUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
